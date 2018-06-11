@@ -1,0 +1,8 @@
+ lex cal.l
+ yacc -d cal.y
+ cc -o cal lex.yy.c y.tab.c
+ ./cal
+3+4
+
+
+

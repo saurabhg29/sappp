@@ -1,0 +1,6 @@
+lex vwhile.l
+ yacc -d vwhile1.y
+ cc lex.yy.c y.tab.c
+ ./a.out
+
+while(a)a+2;
